@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 py-8">
+  <div class="min-h-screen flex items-center justify-center bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 py-8">
     <!-- Back to Home Button -->
     <div class="absolute top-4 left-4">
       <NuxtLink
@@ -9,6 +9,11 @@
         <UIcon name="i-heroicons-home" class="w-5 h-5 mr-2" />
         Kembali ke Beranda
       </NuxtLink>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <div class="absolute top-4 right-4">
+      <ThemeToggle />
     </div>
 
     <!-- Main Content -->
