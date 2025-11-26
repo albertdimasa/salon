@@ -6,10 +6,10 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   
   // Custom theme colors
-  ui: {
-    primary: 'blue',
-    gray: 'slate'
-  },
+  // ui: {
+  //   primary: 'blue',
+  //   gray: 'slate'
+  // },
   
   tailwindcss: {
     config: {

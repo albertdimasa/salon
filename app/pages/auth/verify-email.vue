@@ -23,7 +23,7 @@
           <!-- Instructions -->
           <div class="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-4 space-y-3">
             <div class="flex items-start">
-              <UIcon name="i-heroicons-information-circle" class="w-5 h-5 text-primary-500 mt-0.5 mr-3 flex-shrink-0" />
+              <UIcon name="i-heroicons-information-circle" class="w-5 h-5 text-primary-500 mt-0.5 mr-3 shrink-0" />
               <p class="text-sm text-gray-700 dark:text-gray-300">
                 Silakan cek inbox atau folder spam email Anda dan klik link verifikasi yang kami kirimkan.
               </p>
