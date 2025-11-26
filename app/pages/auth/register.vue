@@ -1,8 +1,5 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 py-8">
-    <div class="w-full max-w-md">
-      <!-- Card Container -->
-      <UCard class="shadow-xl">
+  <UCard class="shadow-xl">
         <!-- Header -->
         <template #header>
           <div class="text-center">
@@ -25,7 +22,7 @@
               placeholder="Nama lengkap Anda"
               icon="i-heroicons-user"
               size="lg"
-              class="w-full"
+              class="w-full mb-2"
             />
           </UFormGroup>
 
@@ -37,7 +34,7 @@
               placeholder="nama@email.com"
               icon="i-heroicons-envelope"
               size="lg"
-              class="w-full"
+              class="w-full mb-2"
             />
           </UFormGroup>
 
@@ -49,7 +46,7 @@
               placeholder="Minimal 8 karakter"
               icon="i-heroicons-lock-closed"
               size="lg"
-              class="w-full"
+              class="w-full mb-2"
             />
           </UFormGroup>
 
@@ -61,7 +58,7 @@
               placeholder="Ulangi password"
               icon="i-heroicons-lock-closed"
               size="lg"
-              class="w-full"
+              class="w-full mb-2"
             />
           </UFormGroup>
 
@@ -89,12 +86,14 @@
             </NuxtLink>
           </div>
         </template>
-      </UCard>
-    </div>
-  </div>
+  </UCard>
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  layout: 'auth'
+})
+
 const state = reactive({
   name: '',
   email: '',
